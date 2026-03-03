@@ -1,39 +1,77 @@
 <html>
  <head>
    <title>Oak & Ember BBQ</title>
+    <style>
+      .vertical-line {
+        width:2 solid black ;
+        height: 200;
+      }
+    </style>
+    <style>
+      h5,h3 {
+        margin-bottom: 0;
+      }
+      
+      p {
+        margin-top: 0;
+      }
+    </style>
+    <style>
+      .corner-line {
+        width: 50%;
+        border-bottom: 2px solid black;
+        position: relative;
+      }
+      .corner-line .vertical {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 2px;
+        height: 300px;
+        background: black;
+      }
+    </style>
+    <style>
+      .menu-row {
+        display: flex;
+      }
+    </style>
+    <style>
+      .divider {
+        width: 2px;
+        height: 400px;
+        background: black;
+        margin: 0 20px;
+      }
+    </style>
  </head>
  <body>
 
 
    <header>
-       <ul style="display: flex;justify-content: space-between;">
-         <li><a href="index.html">Home</a></li>
-         <li><a href="page2.html">Page 2</a></li>
-         <li><a href="page3.html">Page 3</a></li>
-       </ul>
-       
    </header>
 
 
    <main>
+  
       <img style="position: relative; left: 50px;"src="junchengimg/bbq_paul-hermann_via_unsplash.jpg"alt= "BBQ image by Paul Hermann Via Unsplash" width="350"/>
       <h1> Welcome to Oak&Embers BBQ</h1>
+      <div class="corner-line"></div>
+      <div class="left">
       <h2 style="position: relative; left: 150px;"> Menu</h2>
-      <h3 style="margin-left: 0; padding-left: 0;">BBQ Platters</h3>
-      <p>
-         Savory, and slow-cooked meats pared with selected slides <br> such as creamy mac & cheese, tangy coleslaw, baked beans.<br>
-      </p>
+    
+      <h3 style="position: relative; left:100px;">BBQ Platters </h3>
+      
+      <p>Savory, and slow-cooked meats pared with selected slides <br> such as creamy mac & cheese, tangy coleslaw, baked beans.<br> </p>
          <h5>The Barbecuterie Board:</h5> 
-      <p>
-         A stylish, arranged board featuring smoked brisket slices,<br> burnt ends, sausages, and pickles.   <button>Order</button> 
-      </p>
+      <p>A stylish, arranged board featuring smoked brisket slices,<br> burnt ends, sausages, and pickles. $15.99   <button>Order</button> </p>
       <h5> The Individual Platter: </h5> 
       <p>  
-        A curated selection, of one or two, meats with two sides <br> and bread, offering a, complete meal, for, one. <button>Order</button>
+        A curated selection, of one or two, meats with two sides <br> and bread, offering a, complete meal, for, one. $14.99 <button>Order</button>
       </p>
       <h5>The Classic:</h5>
       <p>
-        Pulled pork, pork ribs, coleslaw, baked beans,<br> and cornbread. <button>Order</button>
+        Pulled pork, pork ribs, coleslaw, baked beans,<br> and cornbread. $15.99 <button>Order</button>
       </p>
       <img src="junchengimg/ribs_by_Alex_via_unsplash.jpg" alt= "ribs by Alex Via unsplash" width="250"/>
       <h3>Classic Roasts</h3>
@@ -43,17 +81,69 @@
       <p>
         Pulled Pork- $7.99 <button>Order</button>
       </p>
-
-
-
-
-
+      <p>
+        Steak 16oz- $17.99 <button>Order</button> 
+      </p>
+      <p>
+        Brisket- $18.99 <button>Order</button>
+      </p>
+      <img src="junchengimg/Steak_matt-connor_via_unsplash.jpg"alt="Steak by Matt Connor via unsplash" width="200"/>
+  
+        <h3>Sides</h3>
+        <p>
+          Mac & Cheese- $4.99 <button>Order</button>
+        </p>
+        <p>
+          Coleslaw- $3.99 <button>Order</button>
+        </p>
+        <p>
+          Baked beans- $2.99 <button>Order</button>
+        </p>
+        <p>
+          Cornbread- $1.00 <button>Order</button>
+        </p>
+        <img src="junchengimg/M&C_by_shohan_ridoy_via_unsplash.jpg"alt="Mac & Cheese by shohan ridoy via unsplash" width="200"/>
+        <h3>Beverages</h3>
+        <p>
+          Lemonade- $2.50 <button>Order</button>
+        </p>
+        <p>
+          Sweet Tea- $2.50 <button>Order</button>
+        </p>
+        <p>
+          Sparkling Water- $1.50 <button>Order</button>
+        </p>
+        <p>
+          Fresh Orange Juice- $2.00 <button>Order</button>
+        </p>
+        <img src="junchengimg/lemonade_ardi_evans_via_unsplash.jpg"alt="Drinks by ardi evans via unsplash" width="150"/>
+        <h3>Deserts</h3>
+        <p>
+          Cheese Cake- $2.50 <button>Order</button>
+        </p>
+        <p>
+          Chocolate Cake- 2.50 <button>Order</button>
+        </p>
+        <p>
+          Strawberry Shortcake- 2.50 <button>Order</button>
+        </p>
+        <img src="junchengimg/Cake_by_yiseul_han_via_unsplash.jpg"alt="chocolate cake by yiseul han via unsplash" width="150"/>
+        <div class="corner-line"></div>
+        <div class="left">
    </main>
 
 
    <footer>
      <!-- Your footer info goes here -->
-
+    
+    
+    <h3>Credits:</h3>
+    <p>Cake Img: Yiseul Han via Unsplash </p>
+    <p>Lemonade Img: Ardi Evans via Unsplash</p>
+    <p>Mac & Cheese Img: Shohan Ridoy via Unsplash</p>
+    <p>Ribs Img: Alex via Unsplash</p>
+    <p>Steak Img: Matt Connor via Unsplash</p>
+    <p>BBQ Img: Paul Hermann via Unsplash</p>
 
 
 
